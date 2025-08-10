@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "CatView.h"
+#import "NJMainViewController.h"
 
 @interface ViewController ()
 
@@ -40,6 +41,11 @@
     [self.view addSubview:stackView];
     
     stackView.frame = self.view.bounds;
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NJMainViewController *vc = [[NJMainViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end

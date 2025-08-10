@@ -16,6 +16,7 @@
 		A76A159E28F43C5B00086B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76A159D28F43C5B00086B38 /* Assets.xcassets */; };
 		A76A15A128F43C5B00086B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76A159F28F43C5B00086B38 /* LaunchScreen.storyboard */; };
 		A76A15A428F43C5B00086B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76A15A328F43C5B00086B38 /* main.m */; };
+		BFAF3F632E45E5CD005B47E3 /* NJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAF3F622E45E5CD005B47E3 /* NJMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		A76A15A028F43C5B00086B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A76A15A228F43C5B00086B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A76A15A328F43C5B00086B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFAF3F612E45E5CD005B47E3 /* NJMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJMainViewController.h; sourceTree = "<group>"; };
+		BFAF3F622E45E5CD005B47E3 /* NJMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJMainViewController.m; sourceTree = "<group>"; };
 		FD8E7F541A46626F2CA92333 /* Pods-LookinDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LookinDemoOC.release.xcconfig"; path = "Target Support Files/Pods-LookinDemoOC/Pods-LookinDemoOC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +95,8 @@
 				A76A159F28F43C5B00086B38 /* LaunchScreen.storyboard */,
 				A76A15A228F43C5B00086B38 /* Info.plist */,
 				A76A15A328F43C5B00086B38 /* main.m */,
+				BFAF3F612E45E5CD005B47E3 /* NJMainViewController.h */,
+				BFAF3F622E45E5CD005B47E3 /* NJMainViewController.m */,
 			);
 			path = LookinDemoOC;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A76A159928F43C5A00086B38 /* ViewController.m in Sources */,
+				BFAF3F632E45E5CD005B47E3 /* NJMainViewController.m in Sources */,
 				A76A159328F43C5A00086B38 /* AppDelegate.m in Sources */,
 				A76A15A428F43C5B00086B38 /* main.m in Sources */,
 				A76A159628F43C5A00086B38 /* SceneDelegate.m in Sources */,
@@ -375,6 +381,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -403,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
