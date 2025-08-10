@@ -17,6 +17,7 @@
 		A76A15A128F43C5B00086B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76A159F28F43C5B00086B38 /* LaunchScreen.storyboard */; };
 		A76A15A428F43C5B00086B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76A15A328F43C5B00086B38 /* main.m */; };
 		BFAF3F632E45E5CD005B47E3 /* NJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAF3F622E45E5CD005B47E3 /* NJMainViewController.m */; };
+		BFC67C152E489AF1007604C4 /* NJHookTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC67C142E489AF1007604C4 /* NJHookTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		A76A15A328F43C5B00086B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFAF3F612E45E5CD005B47E3 /* NJMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJMainViewController.h; sourceTree = "<group>"; };
 		BFAF3F622E45E5CD005B47E3 /* NJMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJMainViewController.m; sourceTree = "<group>"; };
+		BFC67C132E489AF1007604C4 /* NJHookTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJHookTest.h; sourceTree = "<group>"; };
+		BFC67C142E489AF1007604C4 /* NJHookTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJHookTest.m; sourceTree = "<group>"; };
 		FD8E7F541A46626F2CA92333 /* Pods-LookinDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LookinDemoOC.release.xcconfig"; path = "Target Support Files/Pods-LookinDemoOC/Pods-LookinDemoOC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +85,8 @@
 		A76A159028F43C5A00086B38 /* LookinDemoOC */ = {
 			isa = PBXGroup;
 			children = (
+				BFC67C132E489AF1007604C4 /* NJHookTest.h */,
+				BFC67C142E489AF1007604C4 /* NJHookTest.m */,
 				A76A159128F43C5A00086B38 /* AppDelegate.h */,
 				A76A159228F43C5A00086B38 /* AppDelegate.m */,
 				A76A159428F43C5A00086B38 /* SceneDelegate.h */,
@@ -229,6 +234,7 @@
 				A76A159328F43C5A00086B38 /* AppDelegate.m in Sources */,
 				A76A15A428F43C5B00086B38 /* main.m in Sources */,
 				A76A159628F43C5A00086B38 /* SceneDelegate.m in Sources */,
+				BFC67C152E489AF1007604C4 /* NJHookTest.m in Sources */,
 				A73F8C5E2ADC456C003FE507 /* CatView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

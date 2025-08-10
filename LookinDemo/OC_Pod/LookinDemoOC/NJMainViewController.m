@@ -6,8 +6,13 @@
 //
 
 #import "NJMainViewController.h"
+#import "NJHookTest.h"
 
 @interface NJMainViewController ()
+
+/// <#Desription#>
+@property (nonatomic, strong) NJHookTest *hookTest;
+
 
 @end
 
@@ -17,8 +22,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor orangeColor];
+    
 }
 
-
+- (void)startHookTest {
+    self.hookTest = [[NJHookTest alloc] init];
+    [self.hookTest start];
+}
 
 @end
